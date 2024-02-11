@@ -10,6 +10,6 @@ print(list(result))
 
 list1 = [1,2,3,4,5]
 print(list1[1::2])
-
+#or
 result = [list1[i] for i in range(len(list1)) if i % 2 != 0]
 print(result)
