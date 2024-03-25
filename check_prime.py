@@ -1,5 +1,4 @@
 # Using the flag
-
 def prime_number(n):
     flag = False
     if n>1:
@@ -26,7 +25,6 @@ def prime_number2(n):
 print(prime_number2(9))
 
 # Display a range of prime number :-
-
 def prime_number_all(start,end):
     for n in range(start, end):
         if n>1:

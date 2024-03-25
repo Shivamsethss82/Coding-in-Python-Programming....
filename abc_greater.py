@@ -1,11 +1,8 @@
 # Write a Python function to find the Max of three numbers. 
-
 print("Using max function :",max(12,1,12))
-
 
 def max_num(a, b, c):
     max_number = a  # Assume a is the maximum
-    
     if b > max_number:
         max_number = b
     if c > max_number:

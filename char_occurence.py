@@ -59,3 +59,10 @@ def all_char_occourence(s):
             ch[i] = 1
     print(ch)
 print(all_char_occourence("aaaaaaajdggiidd"))
+
+
+# Perticular Charecter count
+
+days = ['S','M','M','M','F','S']
+y = set(days)
+print([[x,days.count(x)] for x in y])

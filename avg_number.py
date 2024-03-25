@@ -1,6 +1,4 @@
-'''
-Take number as a input & Find all the numbers inputs!!!
-'''
+# Take number as a input & Find all the numbers inputs!!!
 
 num = int(input("How many numbers for take input :"))
 total_sum = 0
