@@ -10,3 +10,6 @@ real_part = x.real
 img_part = x.imag
 print(real_part)
 print(img_part)
+
+n = x+y
+print(n)
